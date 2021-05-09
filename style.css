@@ -780,7 +780,7 @@ ul {
 
 .yes:before {
     content: '';
-    background-image: url('images/yes.png');
+    background-image: url('yes.png');
     position: absolute;
     width: 30px; 
     height: 24px;
@@ -797,7 +797,7 @@ ul {
 
 .yes_m:before {
     content: '';
-    background-image: url('images/yes.png');
+    background-image: url('yes.png');
     position: absolute;
     width: 30px; 
     height: 24px;
@@ -813,7 +813,7 @@ ul {
 
 .no:before {
     content: '';
-    background-image: url('images/no.png');
+    background-image: url('no.png');
     position: absolute;
     width: 25px; 
     height: 25px;
@@ -830,7 +830,7 @@ ul {
 
 .no_k:before {
     content: '';
-    background-image: url('images/no.png');
+    background-image: url('no.png');
     position: absolute;
     width: 25px; 
     height: 25px;
@@ -847,7 +847,7 @@ ul {
 
 .yes_l:before {
     content: '';
-    background-image: url('images/yes.png');
+    background-image: url('yes.png');
     position: absolute;
     width: 30px; 
     height: 24px;
@@ -864,7 +864,7 @@ ul {
 
 .no_s:before {
     content: '';
-    background-image: url('images/no.png');
+    background-image: url('no.png');
     position: absolute;
     width: 25px; 
     height: 25px;
