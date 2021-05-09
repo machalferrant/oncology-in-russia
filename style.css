@@ -1333,7 +1333,7 @@ ul {
     }
 
     .second_block_text {
-        margin-top: -34.5rem;
+        margin-top: -33rem;
         margin-left: -2rem;
         margin-right: 0.5rem;
         margin-bottom: 10rem;
@@ -1341,13 +1341,13 @@ ul {
     }
 
     .name {
-        top: 2020px;
-        right: 10px;
+        top: 1995px;
+        right: 17px;
         font-size: 0.7rem;
     }
     
     .tooltip {
-        top: 1820px;
+        top: 1805px;
         right: 30px;
         font-size: 0.7rem;
     }
