@@ -1067,7 +1067,9 @@ ul {
     }
 
     .viz_2 {
-        display: none;
+        margin-left: -2rem;
+        width: 350px;
+        height: 62.5px;
     }
 
     .fifth_block {
@@ -1403,7 +1405,9 @@ ul {
     }
 
     .viz_2 {
-        display: none;
+        margin-left: -2rem;
+        width: 350px;
+        height: 62.5px;
     }
 
     .fifth_block {
