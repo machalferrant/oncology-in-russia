@@ -6,6 +6,7 @@
 
 }
 
+
 /* Подключение стилей и шрифтов */
 
 body {
@@ -29,6 +30,7 @@ p {
     box-sizing: border-box;
 }
 
+
 /* Контейнер */
 
 .container {
@@ -39,7 +41,8 @@ p {
     margin: 0 auto;
 }
 
-/* Хэдер */
+
+/* Меню */
 
 .header {
     padding: 1rem 0;
@@ -50,44 +53,25 @@ p {
     display: flex;
     justify-content: space-between;
     align-items: center;
-}
+    padding-bottom: 4rem;
 
-.user {
-    display: flex;
-}
 
-.user_content {
-    padding-left: 0;
-    margin: 50px
 }
-
-.user_name {
-    font-size: 1rem;
-    color: var(--black);
-    font-weight: bold;
-    margin-bottom: 5px;
-}
-
-.user_prof {
-    font-size: 0.75rem;
-    color: var(--gray);
-    font-weight: light;
-    opacity: 0.7; 
-}
-
-/* Меню */
 
 .nav {
+    padding-top: 4rem;
+    padding-left: 0rem;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     height: 100%;
+
 }
 
 .nav_link {
     margin-left: 1rem;
     position: relative;
-    font-size: 0.8rem;
+    font-size: 1rem;
     color: var(--black);
     font-weight: bold;
     text-transform: uppercase;
@@ -99,12 +83,13 @@ p {
     padding: 0 0 4px;
 }
 
+
 /* Обложка */
 
 .intro_inner {
     display: flex;
-    padding-top: 3rem;
-    padding-bottom: 12rem;
+    padding-top: 5rem;
+    padding-bottom: 8rem;
     padding-left: 1rem;
     position: relative;
 
@@ -116,7 +101,8 @@ p {
     color: var(--black);
     font-weight: bold;
     font-size: 2.8rem;
-    margin-bottom: 10px;
+    margin-top: -2rem;
+    margin-bottom: 15px;
 }
 
 .intro_sub {
@@ -128,18 +114,20 @@ p {
 .sub_text {
     color: var(--gray);
     font-weight: thin;
-    font-size: 1.4rem;
+    font-size: 1.3rem;
     line-height: 140%;
-    padding-top: 5rem;
-    padding-right: 35rem;
-    margin-bottom: 3rem;
+    padding-top: 6rem;
+    padding-right: 38rem;
+    margin-bottom: 1.5rem;
 }
 
 .main_image {
     position: absolute;
     top: 0px;
-    right: -30px;
+    right: -10px;
     z-index: 1;
+    width: 600px;
+    height: 666px;
 }
 
 .button {
@@ -168,6 +156,7 @@ p {
     color: white;
 }
 
+
 /* 1 блок */
 
 .first_block_text {
@@ -177,8 +166,8 @@ p {
     line-height: 140%;
     margin-top: 4rem;
     margin-bottom: 6rem;
-    margin-left: 9rem;
-    margin-right: 9rem;
+    margin-left: 13rem;
+    margin-right: 12rem;
 }
 
 .points {
@@ -203,6 +192,7 @@ p {
     font-size: 1.1rem;
 }
 
+
 /* 2 блок */
 
 .second_block {
@@ -223,11 +213,27 @@ p {
     font-weight: thin;
     font-size: 1.2rem;
     line-height: 140%;
-    margin-top: -23rem;
+    margin-top: -22rem;
     margin-left: 45rem;
     margin-right: 3rem;
     margin-bottom: 0.5rem;
 }
+
+.second_end_block {
+    margin-top: 4rem;
+    margin-left: 2rem;
+}
+
+.second_end_block_text {
+    color: var(--black);
+    font-weight: thin;
+    font-size: 1.2rem;
+    line-height: 140%;
+    margin-left: 12rem;
+    margin-right: 13rem;
+    margin-bottom: 2rem;
+}
+
 
 /* 2 блок. Визуализация. График */
 
@@ -235,12 +241,15 @@ p {
     padding-left: 1rem;
     padding-right: 0rem;
     margin-bottom: 0.5rem;
+    width: 650px;
+    height: 345px;
 }
+
 
 /* 3 блок */
 
 .hr{
-    margin-top: -3rem;
+    margin-top: 5rem;
     margin-bottom: 6rem;
 }
 
@@ -254,7 +263,7 @@ p {
     line-height: 140%;
     padding-top: 0rem;
     padding-bottom: 2rem;
-    margin-left: 1.5rem;
+    margin-left: -1rem;
     margin-right: 3rem;
 }
 
@@ -265,9 +274,10 @@ p {
     line-height: 140%;
     padding-top: 0.5rem;
     margin-left: 9rem;
-    margin-right: 9rem;
+    margin-right: 13rem;
     margin-bottom: 2rem;
 }
+
 
 /* 3 блок. Информационный тултип */
 
@@ -277,8 +287,8 @@ p {
     width: 1.2rem;
 
     position: absolute; 
-    top: 1508px;
-    right: 190px;
+    top: 1650px;
+    right: 132px;
 
     border: 1px solid black;
     border-radius: 1rem;
@@ -300,14 +310,15 @@ p {
 
 .tooltip {
     position: absolute;
-    top: 1310px;
+    top: 1450px;
     right: 45px;
 
     font-size: 0.7rem;
 
     margin: 5px;
     width: 310px;
-    height: 180px;
+    height: 178px;
+    background-color: white;
 
     border: 1px solid #D0CECE;
     box-shadow: 0 5px 10px rgba(0,0,0,0.5);
@@ -315,12 +326,14 @@ p {
     
 }
 
+
 /* 3 блок. Визуализация */
 
 .tableauPlaceholder {
     padding-left: 9rem;
     margin-right: 9rem;
 }
+
 
 /* 4 блок */
 
@@ -336,23 +349,25 @@ p {
     line-height: 140%;
     padding-top: 0.5rem;
     margin-left: 9rem;
-    margin-right: 9rem;
+    margin-right: 12rem;
     margin-bottom: 3rem;
 }
 
 .tableauPlaceholder_2 {
     margin-left: -7rem;
-    margin-right: 4rem;
+    margin-right: 7rem;
 }
 
 .fourth_block_text_2 {
+    position: relative;
+    z-index: 1;
     color: var(--black);
     font-weight: thin;
     font-size: 1.2rem;
     line-height: 140%;
-    margin-top: -16rem;
+    margin-top: -11.5rem;
     margin-left: 9rem;
-    margin-right: 9rem;
+    margin-right: 14rem;
     margin-bottom: 2rem;
 }
 
@@ -365,9 +380,10 @@ p {
 }
 
 .viz_2 {
-    margin-left: 9rem;
+    margin-left: 2.5rem;
     margin-bottom: 3rem;
 }
+
 
 /* 5 блок */
 
@@ -382,13 +398,17 @@ p {
     line-height: 140%;
     padding-top: 0.5rem;
     margin-left: 9rem;
-    margin-right: 9rem;
+    margin-right: 14rem;
     margin-bottom: 6rem;
 }
 
 .viz_3 {
     margin-top: 4rem;
+    margin-left: 0rem;
+    width: 790px;
+    height: 513px;
 }
+
 
 /* 6 блок */
 
@@ -404,24 +424,28 @@ p {
     line-height: 140%;
     padding-top: 0.5rem;
     margin-left: 9rem;
-    margin-right: 9rem;
+    margin-right: 14rem;
     margin-bottom: 6rem;
 }
 
+
+/* Оформление блока, раскрывающегося по ссылке */
+
 .pre {
-    background-color: #D8D8E9;
-    margin-top: 2rem;
+    background-color: #E5E5F0;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
     padding: 2rem 2rem;
 }
 
-/* скрываем чекбоксы и блоки с содержанием */
 .pre_title {
     display: none; 
 }
+
 .pre_title + label ~ div{
     display: none;
 }
-/* оформляем текст label */
+
 .pre_title + label {
     border-bottom: 1px dotted #8B8ABF;
     padding: 0;
@@ -430,13 +454,13 @@ p {
     cursor: pointer;
     display: inline-block; 
 }
-/* вид текста label при активном переключателе */
+
 .pre_title:checked + label {
     color: #100d73;
     font-weight: bold;
     border-bottom: 0;
 }
-/* когда чекбокс активен показываем блоки с содержанием  */
+
 .pre_title:checked + label + div {
     display: block; 
 }
@@ -448,19 +472,22 @@ p {
 }
 
 .pre_2 {
-    background-color: #D8D8E9;
-    margin-top: 2rem;
+    background-color: #E5E5F0;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
     padding: 2rem 2rem;
 }
 
-/* скрываем чекбоксы и блоки с содержанием */
+
+/* Оформление блока, раскрывающегося по ссылке */
+
 .pre_title_2 {
     display: none; 
 }
 .pre_title_2 + label ~ div{
     display: none;
 }
-/* оформляем текст label */
+
 .pre_title_2 + label {
     border-bottom: 1px dotted #8B8ABF;
     padding: 0;
@@ -469,13 +496,13 @@ p {
     cursor: pointer;
     display: inline-block; 
 }
-/* вид текста label при активном переключателе */
+
 .pre_title_2:checked + label {
     color: #100d73;
     font-weight: bold;
     border-bottom: 0;
 }
-/* когда чекбокс активен показываем блоки с содержанием  */
+
 .pre_title_2:checked + label + div {
     display: block; 
 }
@@ -488,8 +515,8 @@ p {
 
 .points_2 {
     display: flex;
-    margin-left: 1.5rem;
-    margin-right: 3rem;
+    margin-left: -1rem;
+    margin-right: 1rem;
     justify-content: space-between;
 }
 
@@ -528,6 +555,7 @@ p {
     font-size: 1.1rem;
 }
 
+
 /* 7 блок */
 
 .seventh_block {
@@ -542,9 +570,10 @@ p {
     line-height: 140%;
     padding-top: 0.5rem;
     margin-left: 9rem;
-    margin-right: 9rem;
+    margin-right: 14rem;
     margin-bottom: 6rem;
 }
+
 
 /* 8 блок */
 
@@ -560,7 +589,7 @@ p {
     line-height: 140%;
     padding-top: 0.5rem;
     margin-left: 9rem;
-    margin-right: 9rem;
+    margin-right: 14rem;
     margin-bottom: 6rem;
 }
 
@@ -571,7 +600,7 @@ p {
 
 .points_3 {
     display: grid;
-    grid-template-columns: 350px 500px;
+    grid-template-columns: 350px 450px;
     align-items: center;
     margin-top: 2rem;
     margin-left: 0rem;
@@ -603,7 +632,7 @@ p {
 
 .points_4 {
     display: grid;
-    grid-template-columns: 350px 500px;
+    grid-template-columns: 350px 450px;
     grid-template-rows: 200px 200px;
     align-items: center;
     margin-top: 2rem;
@@ -613,10 +642,10 @@ p {
     justify-content: space-between;
 }
 
-/* Конец */
+/* Вывод */
 
 .end_block {
-    margin-top: 4rem;
+    margin-top: 3rem;
     margin-left: 3rem;
 }
 
@@ -626,10 +655,42 @@ p {
     font-size: 1.2rem;
     line-height: 140%;
     padding-top: 0.5rem;
-    margin-left: 10.5rem;
-    margin-right: 9rem;
+    margin-left: 12rem;
+    margin-right: 14rem;
     margin-bottom: 6rem;
 }
+
+
+/* Оформление цитат */
+
+.quote {
+    margin-left: 4rem;
+    margin-right: 0rem;
+}
+
+.dots {
+    padding-top: 5rem;
+    margin-left: -4rem;
+    font-size: 5rem;
+    font-weight: thin;
+    color: #BEBEDA;
+}
+
+.quote_text {
+    margin-top: -3rem;
+    font-size: 1.2rem;
+    font-weight: thin;
+    line-height: 140%;
+}
+
+.quote_author {
+    margin-top: 1rem;
+    padding-bottom: 3.7rem;
+    font-size: 1rem;
+}
+
+
+/* Оформление блока с данными */
 
 .data_block {
     margin-top: 4rem;
@@ -649,20 +710,23 @@ p {
 
 .pre_3 {
     font-size: 1.2rem;
-    background-color: #D8D8E9;
+    background-color: #E5E5F0;
     margin-top: 2rem;
     margin-bottom: 4rem;
     padding: 2rem 2rem;
 }
 
-/* скрываем чекбоксы и блоки с содержанием */
+
+/* Блоки, раскрывающиеся при нажатии */
+
 .pre_title_3 {
     display: none;
 }
+
 .pre_title_3 + label ~ div{
     display: none;
 }
-/* оформляем текст label */
+
 .pre_title_3 + label {
     border-bottom: 1px dotted #8B8ABF;
     padding: 0;
@@ -671,13 +735,13 @@ p {
     cursor: pointer;
     display: inline-block; 
 }
-/* вид текста label при активном переключателе */
+
 .pre_title_3:checked + label {
     color: #100d73;
     font-weight: bold;
     border-bottom: 0;
 }
-/* когда чекбокс активен показываем блоки с содержанием  */
+
 .pre_title_3:checked + label + div {
     display: block; 
 }
@@ -689,48 +753,7 @@ p {
 }
 
 
-
-/* Модальное окно "О проекте" */
-
-.popup-fade {
-	display: none;
-}
-.popup-fade:before {
-	content: '';
-	background: #000;
-	position: fixed; 
-	left: 0;
-	top: 0;
-	width: 100%; 
-	height: 100%;
-	opacity: 0.7;
-	z-index: 9999;
-}
-.popup {
-	position: fixed;
-	top: 30%;
-	left: 40%;
-	padding: 20px;
-	width: 700px;
-    height: 240px;
-	margin-left: -200px;	
-	background: #fff;
-	border: 1px solid #BEBEDA;
-	border-radius: 4px; 
-	z-index: 99999;
-	opacity: 1;	
-}
-.popup-close {
-	position: absolute;
-    color: #100d73;
-	top: 10px;
-	right: 10px;
-}
-
-.popup_text {
-    margin-top: 1rem;
-    line-height: 140%;
-}
+/* Оформление гиперссылок */
 
 .url {
     color: #100d73
@@ -743,60 +766,369 @@ p {
 }
 
 
+/* Оформление списков*/
 
-
-.tool{
-    display: none;
-    width: 100%;
-    height: 100%;
-    padding: 1rem;
-    overflow: auto;
-
-    background-color: white;
-
-    position: fixed;
-    top: 0;
-    left: 0;
-    z-index: 1000;
-}
-
-.show {
-    display: flex;
-}
-
-.tool_frame {
-    width: 100%;
-    max-width: 1200px;
-    text-align: left;
+ul {
+    list-style: none;
     margin-left: 2rem;
+}
+
+.yes {
     position: relative;
-
-    background-color: white;
+    line-height: 200%;
 }
 
-.tool_pretitle {
-    font-size: 2rem;
-    color: black;
-    font-weight: bold;
-    margin-top: 4rem;
+.yes:before {
+    content: '';
+    background-image: url('images/yes.png');
+    position: absolute;
+    width: 30px; 
+    height: 24px;
+    background-size: 30px 24px;
+    left: -40px; 
+    top: 5px;
 }
 
-.tool_title {
-    font-size: 1.6rem;
-    color: black;
-    font-weight: bold;
-    margin-top: 4rem;
+.yes_m {
+    position: relative;
+    top: 7px;
+    line-height: 120%;
 }
 
-.tool_point {
-    font-size: 1.2rem;
-    color: black;
-    font-weight: thin;
-    margin-top: 1.3rem;
-    line-height: 1.5;
+.yes_m:before {
+    content: '';
+    background-image: url('images/yes.png');
+    position: absolute;
+    width: 30px; 
+    height: 24px;
+    background-size: 30px 24px;
+    left: -40px; 
+    top: 5px;
 }
 
-.point_link {
-    color: black;
-    text-decoration-color: #8787BA;
+.no {
+    position: relative;
+    line-height: 300%;
 }
+
+.no:before {
+    content: '';
+    background-image: url('images/no.png');
+    position: absolute;
+    width: 25px; 
+    height: 25px;
+    background-size: 25px 25px;
+    left: -40px; 
+    top: 12px;
+}
+
+.no_k {
+    position: relative;
+    top: 1rem;
+    line-height: 280%;
+}
+
+.no_k:before {
+    content: '';
+    background-image: url('images/no.png');
+    position: absolute;
+    width: 25px; 
+    height: 25px;
+    background-size: 25px 25px;
+    left: -40px; 
+    top: 12px;
+}
+
+.yes_l {
+    position: relative;
+    top: 7px;
+    line-height: 120%;
+}
+
+.yes_l:before {
+    content: '';
+    background-image: url('images/yes.png');
+    position: absolute;
+    width: 30px; 
+    height: 24px;
+    background-size: 30px 24px;
+    left: -40px; 
+    top: 0px;
+}
+
+.no_s {
+    position: relative;
+    top: 1rem;
+    line-height: 120%;
+}
+
+.no_s:before {
+    content: '';
+    background-image: url('images/no.png');
+    position: absolute;
+    width: 25px; 
+    height: 25px;
+    background-size: 25px 25px;
+    left: -40px; 
+    top: 12px;
+}
+
+/* Адаптивная верстка под телефон*/
+
+@media (max-width: 670px) {
+    .nav_link {
+        top: -2rem;
+        padding-left: 0.5rem;
+        font-size: 0.4rem;
+    }
+
+    .nav_link:hover {
+        border-bottom: 1px solid black;
+        padding: 0 0 4px;
+    }
+
+    .intro_title {
+        font-size: 1rem;
+        margin-top: -10rem;
+        margin-bottom: 15rem;
+    }
+
+    .intro_sub {
+        margin-top: -14.5rem;
+        margin-right: 3rem;
+        font-size: 1.5rem;
+    }
+    
+    .sub_text {
+        font-size: 1rem;
+        padding-top: 2rem;
+        padding-right: 2rem;
+        margin-bottom: 14rem;
+    }
+
+    .main_image {
+        top: 10rem;
+        margin-right: 0.2rem;
+        width: 390px;
+        height: 433px;
+    }
+
+    .first_block {
+        margin-left: 0.5rem;
+    }
+
+    .first_block_text {
+        margin-left: 0rem;
+        margin-right: 0.5rem;
+        margin-bottom: 2rem;
+        font-size: 1.1rem;
+    }
+
+    .pre_inner {
+        margin-left: 0.5rem;
+    }
+
+    .points {
+        display: inline;
+        margin-left: 10rem;
+        margin-right: 0.5rem;
+    }
+
+    .block_title {
+        margin-left: -2rem;
+    }
+
+    .first_content {
+        margin-top: -5rem;
+
+    }
+
+    .second_block_text {
+        margin-top: -34.5rem;
+        margin-left: -2rem;
+        margin-right: 0.5rem;
+        margin-bottom: 10rem;
+        font-size: 1.1rem;
+    }
+
+    .viz_1 {
+        margin-top: 19rem;
+        margin-left: -3.5rem;
+        height: 194px;
+        width: 350px;
+    }
+
+    .second_end_block_text {
+        margin-top: 16rem;
+        margin-left: -1rem;
+        margin-right: 0.5rem;
+        margin-bottom: 10rem;
+        font-size: 1.1rem;
+    }
+
+    .third_block {
+        margin-top: -5rem;
+        margin-left: 11rem;
+        margin-right: -4.5rem;
+    }
+
+    .second_inner {
+        margin-left: -15rem;
+    }
+
+    .second_content {
+        margin-left: 5rem;
+    }
+
+    .third_block_text {
+        margin-left: -2rem;
+        margin-right: 6rem;
+    }
+
+    .tableauPlaceholder {
+        margin-left: -6rem;
+        margin-right: 5rem;
+    }
+
+    .fourth_block {
+        margin-top: -11rem;
+        margin-left: 1rem;
+    }
+
+    .fourth_block_text {
+        margin-left: -1.8rem;
+        margin-right: 1rem;
+    }
+
+    .tableauPlaceholder_2 {
+        margin-top: -1rem;
+        margin-left: -5rem;
+        margin-right: -5rem;
+    }
+
+    .fourth_block_text_2 {
+        margin-top: -22rem;
+        margin-left: -1.8rem;
+        margin-right: 1rem;
+    }
+
+    .fifth_block {
+        margin-top: 0rem;
+        margin-left: 1rem;
+    }
+
+    .fifth_block_text {
+        margin-left: -1.8rem;
+        margin-right: 1rem;
+    }
+
+    .first_ul {
+        margin-left: 0rem;
+    }
+
+    .viz_3 {
+        margin-top: 2rem;
+        margin-left: 0rem;
+        width: 330px;
+        height: 220px;
+    }
+
+    .sixth_block {
+        margin-top: -1.5rem;
+        margin-left: 1rem;
+    }
+
+    .sixth_block_text {
+        margin-left: -1.8rem;
+        margin-right: 1rem;
+        margin-bottom: 2rem;
+    }
+
+    .pre {
+        margin-bottom: 1.5rem;
+    }
+
+    .points_2 {
+        display: inline;
+        margin-top: -10rem;
+        padding-left: 20rem;
+    }
+
+    .number_2 {
+        margin-left: -1.5rem;
+    }
+
+    .number_title_2 {
+        margin-left: -1.5rem;
+    }
+
+    .plus_1 {
+        margin-left: -2rem;
+    }
+
+    .plus_2 {
+        margin-left: -2rem;
+    }
+
+    .seventh_block {
+        margin-top: 2rem;
+        margin-left: 1rem;
+    }
+
+    .seventh_block_text {
+        margin-left: -1.8rem;
+        margin-right: 1rem;
+        margin-bottom: 2rem;
+    }
+
+    ul {
+        margin-left: 0rem;
+    }
+
+    .eighth_block {
+        margin-top: 5rem;
+        margin-left: 1rem;
+    }
+
+    .eighth_block_text {
+        margin-left: -1.8rem;
+        margin-right: 1rem;
+        margin-bottom: 2rem;
+    }
+
+    .points_3 {
+        display: grid;
+        grid-template-columns: 350px;
+        grid-template-rows: 200px 200px;
+        align-items: center;
+        margin-top: 2rem;
+        margin-left: 0rem;
+        margin-right: 3rem;
+        margin-bottom: 0rem;
+        justify-content: space-between;
+    }
+
+    .checks {
+        margin-left: 0rem;
+    }
+
+    .points_4 {
+        display: grid;
+        grid-template-columns: 350px;
+        grid-template-rows: 150px 150px;
+        align-items: center;
+        margin-top: 2rem;
+        margin-left: 0rem;
+        margin-right: 3rem;
+        margin-bottom: 0rem;
+        justify-content: space-between;
+    }
+
+    .checks {
+        margin-left: 0rem;
+    }
+
+
+
+}
+
