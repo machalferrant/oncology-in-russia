@@ -780,7 +780,7 @@ ul {
 
 .yes:before {
     content: '';
-    background-image: url('yes.png');
+    background-image: url('images/yes.png');
     position: absolute;
     width: 30px; 
     height: 24px;
@@ -797,7 +797,7 @@ ul {
 
 .yes_m:before {
     content: '';
-    background-image: url('yes.png');
+    background-image: url('images/yes.png');
     position: absolute;
     width: 30px; 
     height: 24px;
@@ -813,7 +813,7 @@ ul {
 
 .no:before {
     content: '';
-    background-image: url('no.png');
+    background-image: url('images/no.png');
     position: absolute;
     width: 25px; 
     height: 25px;
@@ -830,7 +830,7 @@ ul {
 
 .no_k:before {
     content: '';
-    background-image: url('no.png');
+    background-image: url('images/no.png');
     position: absolute;
     width: 25px; 
     height: 25px;
@@ -847,7 +847,7 @@ ul {
 
 .yes_l:before {
     content: '';
-    background-image: url('yes.png');
+    background-image: url('images/yes.png');
     position: absolute;
     width: 30px; 
     height: 24px;
@@ -864,7 +864,7 @@ ul {
 
 .no_s:before {
     content: '';
-    background-image: url('no.png');
+    background-image: url('images/no.png');
     position: absolute;
     width: 25px; 
     height: 25px;
@@ -873,16 +873,399 @@ ul {
     top: 12px;
 }
 
+/* Адаптивная верстка под планшет*/
+
+/* ipad*/
+
+@media(max-width: 1199px) {
+
+    .header {
+        display: none;
+    }
+
+    .header_inner {
+        display: none;
+    }
+
+    .nav {
+        display: none;
+    }
+
+    .nav_link {
+        display: none;
+    }
+
+    .nav_link {
+        display: none;
+    }
+    
+    .nav_link:hover {
+        display: none;
+    }
+
+    .intro_title {
+        font-size: 2.3rem;
+        margin-top: 1rem;
+        margin-bottom: 15rem;
+    }
+
+    .intro_sub {
+        margin-top: -14.5rem;
+        margin-right: 0rem;
+        font-size: 2rem;
+    }
+    
+    .sub_text {
+        font-size: 1.3rem;
+        padding-top: 4rem;
+        padding-right: 0rem;
+        margin-bottom: 14rem;
+    }
+
+    .main_image {
+        top: 18rem;
+        margin-right: 0.2rem;
+        width: 500px;
+        height: 555px;
+    }
+
+    .first_block {
+        margin-left: 0.5rem;
+    }
+
+    .first_block_text {
+        margin-left: 0rem;
+        margin-right: 0.5rem;
+        margin-bottom: 3rem;
+        font-size: 1.2rem;
+    }
+
+    .pre_inner {
+        margin-left: 0.5rem;
+    }
+
+    .points {
+        display: flex;
+        margin-left: 0rem;
+        margin-right: 0rem;
+    }
+
+    .number {
+        font-size: 3rem;
+    }
+
+    .number_title {
+        font-size: 1rem;
+    }
+
+    .block_title {
+        margin-left: -2rem;
+    }
+
+    .first_content {
+        margin-top: -5rem;
+        margin-left: 0rem;
+
+    }
+
+    .second_block {
+        margin-top: 7rem;
+    }
+
+    .second_block_text {
+        color: var(--black);
+        font-weight: thin;
+        line-height: 140%;
+        margin-top: -20rem;
+        margin-left: 25rem;
+        margin-right: -1rem;
+        margin-bottom: 0.5rem;
+    }
+    
+    .second_end_block {
+        margin-top: 3rem;
+        margin-left: 0rem;
+    }
+    
+    .second_end_block_text {
+        color: var(--black);
+        font-weight: thin;
+        font-size: 1.2rem;
+        line-height: 140%;
+        margin-left: 1rem;
+        margin-right: -1rem;
+        margin-bottom: 2rem;
+    }
+    
+    .viz_1 {
+        margin-top: 1rem;
+        margin-left: -3.4rem;
+        padding-right: 0rem;
+        margin-bottom: 0.5rem;
+        width: 450px;
+        height: 250px;
+    }
+
+    .name {
+        top: 1550px;
+        right: -10px;
+        font-size: 0.7rem;
+    }
+    
+    .tooltip {
+        top: 1350px;
+        right: 5px;
+        font-size: 0.7rem;
+    }
+
+    .third_block {
+        margin-top: 4rem;
+        margin-left: 13rem;
+        margin-right: -4.5rem;
+    }
+
+    .second_inner {
+        margin-left: -15rem;
+    }
+
+    .second_content {
+        margin-left: 5rem;
+    }
+
+    .third_block_text {
+        margin-top: -1rem;
+        margin-left: -2rem;
+        margin-right: 6rem;
+    }
+
+    .tableauPlaceholder {
+        margin-left: -6rem;
+        margin-right: 4.7rem;
+    }
+
+    .fourth_block {
+        margin-top: -14rem;
+        margin-left: 3rem;
+    }
+
+    .fourth_block_text {
+        margin-top: -1rem;
+        margin-left: -1.8rem;
+        margin-right: 0rem;
+    }
+
+    .tableauPlaceholder_2 {
+        margin-top: -1rem;
+        margin-left: -5rem;
+        margin-right: -5rem;
+    }
+
+    .fourth_block_text_2 {
+        margin-top: 2rem;
+        margin-left: -1.8rem;
+        margin-right: 1rem;
+    }
+
+    .viz_2 {
+        display: none;
+    }
+
+    .fifth_block {
+        margin-top: 4rem;
+        margin-left: 3rem;
+    }
+
+    .fifth_block_text {
+        margin-top: -1rem;
+        margin-left: -1.8rem;
+        margin-right: 1rem;
+    }
+
+    .first_ul {
+        margin-left: 0rem;
+        margin-bottom: 3rem;
+        margin-bottom: 3rem;
+    }
+
+    .viz_3 {
+        margin-top: 2rem;
+        margin-left: 0rem;
+        width: 750px;
+        height: 500px;
+    }
+
+    .sixth_block {
+        margin-top: -1.5rem;
+        margin-left: 3rem;
+    }
+
+    .sixth_block_text {
+        margin-top: -1rem;
+        margin-left: -1.8rem;
+        margin-right: 1rem;
+        margin-bottom: 2rem;
+    }
+
+    .pre {
+        margin-bottom: 1.5rem;
+    }
+
+    .points_2 {
+        display: flex;
+        margin-top: 0rem;
+        padding-left: 1rem;
+    }
+
+    .number_2 {
+        margin-left: -2rem;
+        font-size: 1.5rem;
+    }
+
+    .number_title_2 {
+        margin-left: -2rem;
+        font-size: 0.9rem;
+    }
+
+    .plus_1 {
+        margin-left: -7rem;
+        margin-right: 1rem;
+    }
+
+    .plus_2 {
+        margin-left: -11rem;
+        margin-right: 1rem;
+    }
+
+    .seventh_block {
+        margin-top: 2rem;
+        margin-left: 3rem;
+    }
+
+    .seventh_block_text {
+        margin-top: -1rem;
+        margin-left: -1.8rem;
+        margin-right: 1rem;
+        margin-bottom: 2rem;
+    }
+
+    ul {
+        margin-left: 0rem;
+    }
+
+    .yes {
+        line-height: 120%;
+        margin-bottom: 1rem;
+    }
+
+    .yes_m {
+        line-height: 120%;
+        margin-bottom: 1rem;
+    }
+
+    .no_k {
+        margin-bottom: 1rem;
+    }
+
+    .no {
+        margin-bottom: 1rem;
+    }
+
+    .eighth_block {
+        margin-top: 4rem;
+        margin-left: 3rem;
+    }
+
+    .eighth_block_text {
+        margin-top: -0.5rem;
+        margin-left: -1.8rem;
+        margin-right: 0rem;
+        margin-bottom: 2rem;
+    }
+
+    .checks {
+        margin-left: 0rem;
+    }
+    .points_3 {
+        display: grid;
+        grid-template-columns: 350px 300px;
+    }
+
+    .points_4 {
+        display: grid;
+        grid-template-columns: 350px 300px;
+        grid-template-rows: 150px 200px;
+        align-items: center;
+        margin-top: 2rem;
+        margin-left: 0rem;
+        margin-right: 3rem;
+        margin-bottom: 1.5rem;
+        justify-content: space-between;
+    }
+
+    .end {
+        margin-top: 4rem;
+        margin-left: 1rem;
+    }
+
+    .end_block_text {
+        margin-top: -0.5rem;
+        margin-left: 0rem;
+        margin-right: 1rem;
+        margin-bottom: 2rem;
+    }
+
+    .dots {
+        font-size: 3rem;
+    }
+
+    .quote_text {
+        margin-left: -1rem;
+        margin-top: -2.3rem;
+        margin-bottom: 1rem;
+    }
+
+    .quote_author {
+        margin-left: -1rem;
+    }
+
+    .data {
+        margin-left: 1rem;
+    }
+
+}
+
 /* Адаптивная верстка под телефон*/
 
-@media (max-width: 670px) {
+/* iphone 6/7/8 & iphone x*/
+
+@media (max-width: 767px) {
+    .header {
+        display: none;
+    }
+
+    .header_inner {
+        display: none;
+    }
+
     .nav {
+        display: none;
+    }
+
+    .nav_link {
+        display: none;
+    }
+
+    .nav_link {
+        display: none;
+    }
+    
+    .nav_link:hover {
         display: none;
     }
 
     .intro_title {
         font-size: 1rem;
-        margin-top: -10rem;
+        margin-top: -3rem;
         margin-bottom: 15rem;
     }
 
@@ -900,7 +1283,7 @@ ul {
     }
 
     .main_image {
-        top: 10rem;
+        top: 18rem;
         margin-right: 0.2rem;
         width: 390px;
         height: 433px;
@@ -944,24 +1327,36 @@ ul {
         font-size: 1.1rem;
     }
 
+    .name {
+        top: 2020px;
+        right: 10px;
+        font-size: 0.7rem;
+    }
+    
+    .tooltip {
+        top: 1820px;
+        right: 30px;
+        font-size: 0.7rem;
+    }
+
     .viz_1 {
         margin-top: 19rem;
         margin-left: -3.5rem;
-        height: 194px;
-        width: 350px;
+        height: 200px;
+        width: 400px;
     }
 
     .second_end_block_text {
         margin-top: 16rem;
-        margin-left: -1rem;
+        margin-left: 1rem;
         margin-right: 0.5rem;
         margin-bottom: 10rem;
         font-size: 1.1rem;
     }
 
     .third_block {
-        margin-top: -5rem;
-        margin-left: 11rem;
+        margin-top: -6rem;
+        margin-left: 13rem;
         margin-right: -4.5rem;
     }
 
@@ -974,23 +1369,25 @@ ul {
     }
 
     .third_block_text {
+        margin-top: -1rem;
         margin-left: -2rem;
         margin-right: 6rem;
     }
 
     .tableauPlaceholder {
         margin-left: -6rem;
-        margin-right: 5rem;
+        margin-right: 4.7rem;
     }
 
     .fourth_block {
         margin-top: -11rem;
-        margin-left: 1rem;
+        margin-left: 3rem;
     }
 
     .fourth_block_text {
+        margin-top: -1rem;
         margin-left: -1.8rem;
-        margin-right: 1rem;
+        margin-right: 0rem;
     }
 
     .tableauPlaceholder_2 {
@@ -1005,12 +1402,17 @@ ul {
         margin-right: 1rem;
     }
 
+    .viz_2 {
+        display: none;
+    }
+
     .fifth_block {
-        margin-top: 0rem;
-        margin-left: 1rem;
+        margin-top: 4rem;
+        margin-left: 3rem;
     }
 
     .fifth_block_text {
+        margin-top: -1rem;
         margin-left: -1.8rem;
         margin-right: 1rem;
     }
@@ -1022,16 +1424,17 @@ ul {
     .viz_3 {
         margin-top: 2rem;
         margin-left: 0rem;
-        width: 330px;
-        height: 220px;
+        width: 320px;
+        height: 213px;
     }
 
     .sixth_block {
         margin-top: -1.5rem;
-        margin-left: 1rem;
+        margin-left: 3rem;
     }
 
     .sixth_block_text {
+        margin-top: -1rem;
         margin-left: -1.8rem;
         margin-right: 1rem;
         margin-bottom: 2rem;
@@ -1048,27 +1451,31 @@ ul {
     }
 
     .number_2 {
-        margin-left: -1.5rem;
+        margin-left: -2rem;
+        font-size: 2rem;
     }
 
     .number_title_2 {
-        margin-left: -1.5rem;
+        margin-left: -2rem;
+        margin-right: 4rem;
+
     }
 
     .plus_1 {
-        margin-left: -2rem;
+        margin-left: -4rem;
     }
 
     .plus_2 {
-        margin-left: -2rem;
+        margin-left: -7rem;
     }
 
     .seventh_block {
-        margin-top: 2rem;
-        margin-left: 1rem;
+        margin-top: 1rem;
+        margin-left: 3rem;
     }
 
     .seventh_block_text {
+        margin-top: -1rem;
         margin-left: -1.8rem;
         margin-right: 1rem;
         margin-bottom: 2rem;
@@ -1078,12 +1485,33 @@ ul {
         margin-left: 0rem;
     }
 
+    .yes {
+        line-height: 120%;
+        margin-bottom: 1rem;
+    }
+
+    .yes_m {
+        line-height: 120%;
+        margin-bottom: 1rem;
+    }
+
+    .no_k {
+        line-height: 120%;
+        margin-bottom: 2.5rem;
+    }
+
+    .no {
+        line-height: 120%;
+        margin-bottom: 1rem;
+    }
+
     .eighth_block {
-        margin-top: 5rem;
-        margin-left: 1rem;
+        margin-top: 4rem;
+        margin-left: 3rem;
     }
 
     .eighth_block_text {
+        margin-top: -0.5rem;
         margin-left: -1.8rem;
         margin-right: 1rem;
         margin-bottom: 2rem;
@@ -1094,7 +1522,7 @@ ul {
         grid-template-columns: 350px;
         grid-template-rows: 200px 200px;
         align-items: center;
-        margin-top: 2rem;
+        margin-top: 1rem;
         margin-left: 0rem;
         margin-right: 3rem;
         margin-bottom: 0rem;
@@ -1108,12 +1536,12 @@ ul {
     .points_4 {
         display: grid;
         grid-template-columns: 350px;
-        grid-template-rows: 150px 150px;
+        grid-template-rows: 50px 150px;
         align-items: center;
-        margin-top: 2rem;
+        margin-top: 4rem;
         margin-left: 0rem;
         margin-right: 3rem;
-        margin-bottom: 0rem;
+        margin-bottom: 1.5rem;
         justify-content: space-between;
     }
 
@@ -1121,7 +1549,38 @@ ul {
         margin-left: 0rem;
     }
 
+    .end {
+        margin-top: 4rem;
+        margin-left: 3rem;
+    }
 
+    .end_block_text {
+        margin-top: -0.5rem;
+        margin-left: -1.8rem;
+        margin-right: 1rem;
+        margin-bottom: 2rem;
+    }
+
+    .dots {
+        font-size: 3rem;
+    }
+
+    .quote_text {
+        margin-left: -1rem;
+        margin-top: -2.3rem;
+        margin-bottom: 1rem;
+    }
+
+    .quote_author {
+        margin-left: -1rem;
+    }
+
+    .data {
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
 
 }
+
+
 
