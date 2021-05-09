@@ -382,6 +382,12 @@ p {
 .viz_2 {
     margin-left: 2.5rem;
     margin-bottom: 3rem;
+    width: 1000px;
+    height: 178px;
+}
+
+.viz_2_mobile {
+    display: none;
 }
 
 
@@ -1066,10 +1072,15 @@ ul {
         margin-right: 1rem;
     }
 
-    .viz_2 {
-        margin-left: -2rem;
-        width: 350px;
-        height: 62.5px;
+   .viz_2 {
+        display: flex;
+        margin-left: -1rem;
+        width: 700px;
+        height: 125px;
+    }
+
+    .viz_2_mobile {
+        display: none;
     }
 
     .fifth_block {
@@ -1405,9 +1416,14 @@ ul {
     }
 
     .viz_2 {
-        margin-left: -2rem;
-        width: 350px;
-        height: 62.5px;
+        display: none;
+    }
+
+    .viz_2_mobile {
+        display: flex;
+        margin-left: -2.5rem;
+        width: 360px;
+        height: 205.7px;
     }
 
     .fifth_block {
