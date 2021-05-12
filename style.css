@@ -1450,7 +1450,7 @@ ul {
 
     .sixth_block {
         margin-top: -1.5rem;
-        margin-left: 3rem;
+        margin-left: 0rem;
     }
 
     .sixth_block_text {
@@ -1491,7 +1491,7 @@ ul {
 
     .seventh_block {
         margin-top: 1rem;
-        margin-left: 3rem;
+        margin-left: 0rem;
     }
 
     .seventh_block_text {
@@ -1527,7 +1527,7 @@ ul {
 
     .eighth_block {
         margin-top: 4rem;
-        margin-left: 3rem;
+        margin-left: 0rem;
     }
 
     .eighth_block_text {
@@ -1571,7 +1571,7 @@ ul {
 
     .end {
         margin-top: 4rem;
-        margin-left: 3rem;
+        margin-left: 0rem;
     }
 
     .end_block_text {
@@ -1596,7 +1596,7 @@ ul {
     }
 
     .data {
-        margin-left: 1rem;
+        margin-left: -2rem;
         margin-right: 1rem;
     }
 
