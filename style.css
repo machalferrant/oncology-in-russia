@@ -284,8 +284,8 @@ p {
     width: 1.2rem;
 
     position: absolute; 
-    top: 1620px;
-    right: 132px;
+    top: 1643px;
+    right: 395px;
 
     border: 1px solid black;
     border-radius: 1rem;
@@ -307,8 +307,8 @@ p {
 
 .tooltip {
     position: absolute;
-    top: 1430px;
-    right: 45px;
+    top: 1450px;
+    right: 80px;
 
     font-size: 0.7rem;
 
@@ -792,6 +792,38 @@ ul {
     top: 5px;
 }
 
+.yes_kt {
+    position: relative;
+    line-height: 200%;
+}
+
+.yes_kt:before {
+    content: '';
+    background-image: url('yes.png');
+    position: absolute;
+    width: 30px; 
+    height: 24px;
+    background-size: 30px 24px;
+    left: -40px; 
+    top: 5px;
+}
+
+.yes_a {
+    position: relative;
+    line-height: 200%;
+}
+
+.yes_a:before {
+    content: '';
+    background-image: url('yes.png');
+    position: absolute;
+    width: 30px; 
+    height: 24px;
+    background-size: 30px 24px;
+    left: -40px; 
+    top: 5px;
+}
+
 .yes_m {
     position: relative;
     top: 7px;
@@ -905,7 +937,7 @@ ul {
     .nav_link:hover {
         display: none;
     }
-    
+
     .intro_content {
         padding-bottom: 14rem;
     }
@@ -1073,7 +1105,7 @@ ul {
         margin-right: 1rem;
     }
 
-   .viz_2 {
+    .viz_2 {
         display: flex;
         margin-left: -1rem;
         width: 700px;
@@ -1276,48 +1308,67 @@ ul {
     .nav_link:hover {
         display: none;
     }
-    
+
+    .colortext_2 {
+        font-size: 0.8rem;
+    }
+
+    .colortext_3 {
+        font-size: 0.8rem;
+    }
+
+    .colortext_4 {
+        font-size: 0.8rem;
+    }
+
+    .intro {
+        margin-right: 1rem;
+    }
+
     .intro_content {
         padding-bottom: 11rem;
     }
 
     .intro_title {
         font-size: 1rem;
-        margin-top: -3rem;
+        margin-top: -2rem;
+        margin-right: 0rem;
         margin-bottom: 15rem;
     }
 
     .intro_sub {
         margin-top: -14.5rem;
-        margin-right: 3rem;
+        margin-right: 0rem;
         font-size: 1.5rem;
     }
     
     .sub_text {
         font-size: 1rem;
         padding-top: 2rem;
-        padding-right: 2rem;
+        margin-right: 0rem;
         margin-bottom: 1rem;
     }
 
     .main_image {
-        top: 18rem;
+        top: 19.5rem;
         padding-top: 3rem;
-        padding-left: 0rem;
-        padding-right: 3rem;
+        padding-left: 1rem;
+        padding-right: 2rem;
         width: 350px;
         height: 388px;
     }
 
     .first_block {
         margin-left: 0.5rem;
+        margin-right: 3rem;
     }
 
     .first_block_text {
         margin-left: 0rem;
-        margin-right: 0.5rem;
+        margin-top: 1rem;
+        margin-right: -2rem;
         margin-bottom: 2rem;
-        font-size: 1.1rem;
+        font-size: 1rem;
     }
 
     .pre_inner {
@@ -1330,96 +1381,111 @@ ul {
         margin-right: 0.5rem;
     }
 
+    .number {
+        font-size: 2.3rem;
+    }
+
+    .number_title {
+        font-size: 1rem;
+        margin-right: -3rem;
+    }
+
     .block_title {
         margin-left: -2rem;
+        margin-right: 2rem;
+        font-size: 1.2rem;
     }
 
     .first_content {
-        margin-top: -5rem;
+        margin-top: -7rem;
 
+    }
+
+    .second_block {
+        margin-right: 1rem;
     }
 
     .second_block_text {
-        margin-top: -33rem;
+        margin-top: -31.5rem;
         margin-left: -2rem;
-        margin-right: 0.5rem;
-        margin-bottom: 10rem;
-        font-size: 1.1rem;
+        margin-right: 0rem;
+        margin-bottom: 0rem;
+        font-size: 0.9rem;
     }
 
     .name {
-        top: 2025px;
-        right: 17px;
+        top: 1665px;
+        right: 75px;
         font-size: 0.7rem;
     }
     
     .tooltip {
-        top: 1835px;
-        right: 30px;
+        top: 1465px;
+        right: 50px;
         font-size: 0.7rem;
     }
 
     .viz_1 {
-        margin-top: 19rem;
+        margin-top: 15rem;
         margin-left: -3.5rem;
-        height: 180px;
-        width: 360px;
+        margin-bottom: 4rem;
+        height: 175px;
+        width: 350px;
+    }
+
+    .second_end_block {
+        padding-top: 0.5rem;
+        margin-right: 5rem;
     }
 
     .second_end_block_text {
-        margin-top: 16rem;
+        margin-top: 12rem;
         margin-left: 1rem;
-        margin-right: 0.5rem;
+        margin-right: -4rem;
         margin-bottom: 10rem;
-        font-size: 1.1rem;
+        font-size: 0.9rem;
     }
 
     .third_block {
         margin-top: -6rem;
-        margin-left: 13rem;
-        margin-right: -4.5rem;
-    }
-
-    .second_inner {
-        margin-left: -15rem;
-    }
-
-    .second_content {
-        margin-left: 5rem;
+        margin-right: -5rem;
     }
 
     .third_block_text {
         margin-top: -1rem;
         margin-left: -2rem;
-        margin-right: 6rem;
+        margin-right: 1rem;
+        font-size: 0.9rem;
     }
 
     .tableauPlaceholder {
-        margin-left: -6rem;
-        margin-right: 4.7rem;
+        margin-left: -4rem;
     }
 
     .fourth_block {
         margin-top: -11rem;
         margin-left: 3rem;
+        margin-right: 1rem;
     }
 
     .fourth_block_text {
         margin-top: -1rem;
         margin-left: -1.8rem;
-        margin-right: 0rem;
+        margin-right: -5rem;
+        font-size: 0.9rem;
     }
 
     .tableauPlaceholder_2 {
         margin-top: -1rem;
         margin-left: -5rem;
-        margin-right: -5rem;
+        margin-right: -6rem;
     }
 
     .fourth_block_text_2 {
         margin-top: -22rem;
         margin-left: -1.8rem;
-        margin-right: 1rem;
+        margin-right: -5rem;
+        font-size: 0.9rem;
     }
 
     .viz_2 {
@@ -1428,29 +1494,31 @@ ul {
 
     .viz_2_mobile {
         display: flex;
-        margin-left: -2.5rem;
-        width: 360px;
-        height: 205.7px;
+        margin-left: -2rem;
+        width: 330px;
+        height: 188.5px;
     }
 
     .fifth_block {
         margin-top: 4rem;
         margin-left: 3rem;
+        margin-right: -5rem;
     }
 
     .fifth_block_text {
         margin-top: -1rem;
         margin-left: -1.8rem;
-        margin-right: 1rem;
+        font-size: 0.9rem;
     }
 
     .first_ul {
         margin-left: 0rem;
+        font-size: 0.9rem;
     }
 
     .viz_3 {
         margin-top: 2rem;
-        margin-left: 0rem;
+        margin-left: 0.5rem;
         width: 320px;
         height: 213px;
     }
@@ -1458,17 +1526,26 @@ ul {
     .sixth_block {
         margin-top: -1.5rem;
         margin-left: 0rem;
+        margin-right: 2rem;
     }
 
     .sixth_block_text {
         margin-top: -1rem;
         margin-left: -1.8rem;
-        margin-right: 1rem;
+        margin-right: 0rem;
         margin-bottom: 2rem;
+        font-size: 0.9rem;
     }
 
     .pre {
+        padding: 0.9rem;
+        margin-right: -1rem;
         margin-bottom: 1.5rem;
+        font-size: 0.8rem;
+    }
+
+    .pre_text {
+        font-size: 0.7rem;
     }
 
     .points_2 {
@@ -1478,34 +1555,36 @@ ul {
     }
 
     .number_2 {
-        margin-left: -2rem;
-        font-size: 2rem;
+        margin-left: -1.5rem;
+        font-size: 1.7rem;
+        padding-right: 2rem;
     }
 
     .number_title_2 {
-        margin-left: -2rem;
+        margin-left: -1.5rem;
         margin-right: 4rem;
-
+        font-size: 1rem;
     }
 
     .plus_1 {
-        margin-left: -4rem;
+        margin-left: -6rem;
     }
 
     .plus_2 {
-        margin-left: -7rem;
+        margin-left: -9rem;
     }
 
     .seventh_block {
         margin-top: 1rem;
         margin-left: 0rem;
+        margin-right: 1rem;
     }
 
     .seventh_block_text {
         margin-top: -1rem;
         margin-left: -1.8rem;
-        margin-right: 1rem;
         margin-bottom: 2rem;
+        font-size: 0.9rem;
     }
 
     ul {
@@ -1515,45 +1594,108 @@ ul {
     .yes {
         line-height: 120%;
         margin-bottom: 1rem;
+        padding-right: 2rem;
+        font-size: 0.9rem;
+    }
+
+    .yes_kt {
+        line-height: 120%;
+        margin-bottom: 1rem;
+        padding-right: 2rem;
+        font-size: 0.9rem;
+    }
+    
+    .yes_kt:before {
+        top: -2px;
+    }
+
+    .yes_a {
+        line-height: 120%;
+        margin-bottom: 1rem;
+        padding-right: 2rem;
+        font-size: 0.9rem;
+    }
+    
+    .yes_a:before {
+        top: -3px;
     }
 
     .yes_m {
         line-height: 120%;
         margin-bottom: 1rem;
+        font-size: 0.9rem;
+    }
+
+    .no_k:before { 
+        top: 5px;
     }
 
     .no_k {
         line-height: 120%;
         margin-bottom: 2.5rem;
+        padding-right: 2rem;
+        font-size: 0.9rem;
+    }
+
+    .no:before { 
+        top: 5px;
     }
 
     .no {
         line-height: 120%;
         margin-bottom: 1rem;
+        font-size: 0.9rem;
+    }
+
+    .no_s {
+        font-size: 1rem;
+        margin-right: 0.9rem;
     }
 
     .eighth_block {
         margin-top: 4rem;
         margin-left: 0rem;
+        margin-right: 1rem;
     }
 
     .eighth_block_text {
         margin-top: -0.5rem;
         margin-left: -1.8rem;
-        margin-right: 1rem;
-        margin-bottom: 2rem;
+        margin-bottom: 0.5rem;
+        font-size: 0.9rem;
+    }
+
+    .region {
+        margin-top: 3rem;
+        margin-bottom: 1rem;
+    }
+
+    .number_3 {
+        font-size: 1.7rem;
+        padding-right: 2rem;
+    }
+
+    .number_title_3 {
+        margin-right: 4rem;
+        font-size: 1rem;
     }
 
     .points_3 {
         display: grid;
         grid-template-columns: 350px;
-        grid-template-rows: 200px 200px;
+        grid-template-rows: 150px 150px;
         align-items: center;
         margin-top: 1rem;
         margin-left: 0rem;
         margin-right: 3rem;
         margin-bottom: 0rem;
         justify-content: space-between;
+    }
+
+    .yes_l {
+        font-size: 1rem;
+        padding-right: 0.9rem;
+        font-size: 0.9rem;
     }
 
     .checks {
@@ -1572,6 +1714,23 @@ ul {
         justify-content: space-between;
     }
 
+    .no_s:before {
+        left: -40px; 
+        top: 5px;
+    }
+
+    .no_s {
+        font-size: 0.9rem;
+        padding-right: 2rem;
+    }
+
+    .pre_2 {
+        padding: 0.9rem;
+        margin-top: 1.5rem;
+        margin-bottom: 0rem;
+        font-size: 0.8rem;
+    }
+
     .checks {
         margin-left: 0rem;
     }
@@ -1579,13 +1738,14 @@ ul {
     .end {
         margin-top: 4rem;
         margin-left: 0rem;
+        margin-right: 0rem;
     }
 
     .end_block_text {
-        margin-top: -0.5rem;
+        margin-top: -1.5rem;
         margin-left: -1.8rem;
-        margin-right: 1rem;
         margin-bottom: 2rem;
+        font-size: 0.9rem;
     }
 
     .dots {
@@ -1594,17 +1754,31 @@ ul {
 
     .quote_text {
         margin-left: -1rem;
+        margin-right: 1rem;
         margin-top: -2.3rem;
         margin-bottom: 1rem;
+        font-size: 1rem;
     }
 
     .quote_author {
         margin-left: -1rem;
+        margin-right: 1.5rem;
+        font-size: 0.9rem;
     }
 
     .data {
         margin-left: -2rem;
         margin-right: 1rem;
+    }
+
+    .pre_3 {
+        padding: 0.9rem;
+        margin-bottom: 1.5rem;
+        font-size: 0.8rem;
+    }
+
+    .pre_text_3 {
+        font-size: 0.7rem;
     }
 
 }
