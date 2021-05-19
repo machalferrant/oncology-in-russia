@@ -1730,6 +1730,10 @@ ul {
         margin-bottom: 0rem;
         font-size: 0.8rem;
     }
+    
+    .pre_text_2 {
+        font-size: 0.7rem;
+    }
 
     .checks {
         margin-left: 0rem;
